@@ -47,7 +47,7 @@ def install_pyml():
     pip('install numpy==1.6.2 --upgrade')
 
     pyml_tarball = (
-        'http://garr.dl.sourceforge.net/project/pyml/PyML-0.7.13.3.tar.gz')
+        'http://hivelocity.dl.sourceforge.net/project/pyml/PyML-0.7.13.3.tar.gz')
     pyml_srcidr = 'PyML-0.7.13.3'
 
     # see if PyML tarball needs to be fetched:
