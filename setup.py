@@ -52,7 +52,7 @@ def install_pyml():
 
     # see if PyML tarball needs to be fetched:
     if not dir_exists(pyml_srcidr):
-        run("curl %s | tar -xz" % pyml_tarball)
+        run("curl -L %s | tar -xz" % pyml_tarball)
 
     # compile&install:
     with cd(pyml_srcidr):
